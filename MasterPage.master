@@ -1,0 +1,132 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+
+        .auto-style2 {
+            width: 100%;
+            height: 36px;
+            border-color: #0066FF;
+            background-image: url('img/blue-line.jpg');
+        }
+        .auto-style4 {
+            width: 177px;
+        }
+        .auto-style5 {
+            width: 234px;
+        }
+        .auto-style8 {
+            width: 228px;
+        }
+        .auto-style7 {
+            width: 197px;
+        }
+        .auto-style10 {
+            width: 100%;
+            height: 182px;
+        }
+        .auto-style11 {
+            width: 294px;
+        }
+        .auto-style12 {
+            width: 100%;
+            background-color: #999999;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table class="auto-style10">
+            <tr>
+                <td style="background-position: center; background-image: url('/img/online-exam-website-design.jpg'); background-repeat: no-repeat">&nbsp;&nbsp;</td>
+            </tr>
+        </table>
+            <table class="auto-style2">
+                <tr>
+                    <td class="auto-style4">&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="&quot;home.aspx&quot;">HOME</asp:HyperLink>
+                        &nbsp;</td>
+                    <td class="auto-style5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="&quot;about us.aspx&quot;">ABOUT US</asp:HyperLink>
+                        &nbsp;</td>
+                    <td class="auto-style8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="&quot;rules.aspx&quot;">RULES</asp:HyperLink>
+                    </td>
+                    <td class="auto-style7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
+            <table class="auto-style10">
+                <tr>
+                    <td class="auto-style11">
+                        <asp:Calendar ID="Calendar1" runat="server" BackColor="White" BorderColor="#3366CC" BorderWidth="1px" CellPadding="1" DayNameFormat="Shortest" Font-Names="Verdana" Font-Size="8pt" ForeColor="#003399" Height="200px" Width="220px">
+                            <DayHeaderStyle BackColor="#99CCCC" ForeColor="#336666" Height="1px" />
+                            <NextPrevStyle Font-Size="8pt" ForeColor="#CCCCFF" />
+                            <OtherMonthDayStyle ForeColor="#999999" />
+                            <SelectedDayStyle BackColor="#009999" Font-Bold="True" ForeColor="#CCFF99" />
+                            <SelectorStyle BackColor="#99CCCC" ForeColor="#336666" />
+                            <TitleStyle BackColor="#003399" BorderColor="#3366CC" BorderWidth="1px" Font-Bold="True" Font-Size="10pt" ForeColor="#CCCCFF" Height="25px" />
+                            <TodayDayStyle BackColor="#99CCCC" ForeColor="White" />
+                            <WeekendDayStyle BackColor="#CCCCFF" />
+                        </asp:Calendar>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            <p>
+                                <br />
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+        </table>
+    </form>
+    <table class="auto-style12">
+        <tr>
+            <td style="color: #FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <br />
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; All Rights are Reserved @Pro_1/Hpes_stp@015.v1<br />
+                <br />
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,122 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+
+        .auto-style2 {
+            width: 122%;
+            height: 44px;
+            border-color: #0066FF;
+            background-image: url('img/blue-line.jpg');
+        }
+        .auto-style5 {
+            width: 206px;
+        }
+        .auto-style10 {
+            width: 117%;
+            height: 380px;
+        }
+        .auto-style12 {
+            width: 1027px;
+            background-color: #999999;
+            height: 88px;
+            margin-left: 167px;
+        }
+        .auto-style13 {
+            width: 136%;
+            height: 197px;
+        }
+        .auto-style15 {
+            width: 182px;
+        }
+        .auto-style17 {
+            height: 297px;
+        }
+        .auto-style18 {
+            width: 943px;
+        }
+        #form1 {
+            width: 868px;
+            margin-left: 166px;
+        }
+        .auto-style19 {
+            width: 187px;
+        }
+    </style>
+</head>
+<body style="height: 581px; width: 922px">
+    <form id="form1" runat="server">
+        <table class="auto-style13">
+            <tr>
+                <td class="auto-style18" style="background-image: url('/img/online-exam-website-design.jpg'); background-repeat: no-repeat; background-position: center">
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </td>
+            </tr>
+        </table>
+        <br />
+            <table class="auto-style2">
+                <tr>
+                    <td class="auto-style19">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="&quot;home.aspx&quot;">HOME</asp:HyperLink>
+                        &nbsp;</td>
+                    <td class="auto-style5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/about.aspx">ABOUT US</asp:HyperLink>
+                        &nbsp;</td>
+                    <td class="auto-style15">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                </tr>
+            </table>
+            <table class="auto-style10">
+                <tr>
+                    <td class="auto-style17">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            <p>
+                                &nbsp;</p>
+                            <p>
+                                &nbsp;</p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p style="width: 1047px">
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p style="height: 2px; width: 801px">
+                            </p>
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+        </table>
+    </form>
+    <table class="auto-style12">
+        <tr>
+            <td style="color: #FFFFFF; left: 50%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <br />
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; All Rights are Reserved @Pro_1/Hpes_stp@015.v1<br />
+                <br />
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
